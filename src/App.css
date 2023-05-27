@@ -1,0 +1,104 @@
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  color: rgb(177, 164, 164);
+  background-color: #16111A;
+}
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 450px;
+padding: 10px;
+  border: 1px solid transparent;
+  background-color: #2D2039;
+  border-radius: 40px;
+}
+.quote{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.texten{
+  color: #A638F6;
+  
+}
+
+
+
+.btn{
+  position: relative;
+  top: 38px;
+  background-color: rgb(190, 26, 190);
+  border-radius: 99px;
+  border-radius: 50%;
+  width: 50px; /* Set a width and height to make the button circular */
+  height: 50px;
+  border: none; /* Remove the border from the button */
+  cursor: pointer; /* Add a cursor pointer on hover */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.delaren{
+  display: flex;
+ 
+  width: 100%;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: purple;
+  color: white;
+  box-shadow: 0 0 10px purple;
+  transform: scale(1.2)
+
+}
+.bild{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+
+
+
+
+@media (max-width: 450px) {
+  .mobil-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+}
+
+
